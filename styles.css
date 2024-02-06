@@ -1,0 +1,68 @@
+body {
+    background-image: url('./imagen/bg-palm\ \(2\).jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow-x: hidden;
+    font-family: 'Noto Sans JP', sans-serif;
+}   
+
+.container {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top:5%;
+    
+}
+
+.container .avatar h3 {
+    text-align: center;
+    font-weight: bold;
+}
+
+.links{
+    display:flex;
+    margin-top: 2.5rem;
+    flex-direction: column;
+    justify-content: space-between;
+   align-items: center;
+   width:80vw;
+}
+
+.link {
+    background-color: #fafafa;
+    margin-bottom: 15px;
+    padding: 15px 20px;
+    width: 500px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.703); */
+}
+
+.link a {
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.link:hover{
+    background-color: #e2e2e2;
+    cursor:pointer;
+}
+
+.link .check-icon {
+    fill: rgb(1, 197, 1);
+}
+
+.social-media{
+    display:flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+    align-items: center;
+    width:400px;
+}
+
